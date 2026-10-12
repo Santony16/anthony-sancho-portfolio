@@ -1,6 +1,6 @@
 import { useState, type CSSProperties } from "react";
 import {
-  ArrowUpRight, Brain, Braces, Cloud, Code2, Component, Database, GitPullRequest,
+  Brain, Braces, Cloud, Code2, Component, Database, GitPullRequest,
   Layers3, PanelsTopLeft, Smartphone, Workflow, UsersRound, Webhook, Bot, Send,
   Server, ShieldCheck, Gauge, Package, Network, TerminalSquare, type LucideIcon,
 } from "lucide-react";

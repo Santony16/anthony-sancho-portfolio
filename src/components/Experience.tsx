@@ -1,4 +1,4 @@
-import { ArrowUpRight, Check } from "lucide-react";
+import { Check } from "lucide-react";
 import { copy, type Language } from "@/data/translations";
 
 export function Experience({ language }: { language: Language }) {
