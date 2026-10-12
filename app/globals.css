@@ -165,3 +165,16 @@
 .theme-dark .experience-period, .theme-dark .experience-label, .theme-dark .experience-location { color: #c4d6ca; }
 .theme-dark .experience-line { background: rgba(237,243,238,.28); }
 @keyframes developer-caret { 50% { opacity: 0; } }
+
+/* Keep the hero content and portrait balanced around the page center. */
+.hero-copy { display: flex; flex-direction: column; align-items: center; text-align: center; }
+.hero-copy .eyebrow { justify-content: center; }
+.hero-intro { margin-inline: auto; }
+.hero-actions, .hero-availability { justify-content: center; }
+.hero-photo-card { width: 100%; margin-inline: auto; }
+@media (min-width: 761px) {
+  .hero-grid { width: min(1060px, 100%); margin-inline: auto; }
+}
+@media (max-width: 760px) {
+  .hero-grid { width: min(540px, 100%); margin-inline: auto; }
+}
